@@ -1,0 +1,65 @@
+@font-face{
+    font-family: head;
+    src: url(./KFOmCnqEu92Fr1Mu4mxK.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+/* #main{
+    height: 100%;
+    width: 100%;
+} */
+#loader{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#loader h1{
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#page1{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+#page1 h1{
+    font-size: 20vw;
+    color: white;
+    text-transform: uppercase;
+    font-family: head;
+    white-space: nowrap;
+    font-stretch: 260%;
+    font-weight: 999;
+}
+
+
+
+
+
+
+#page2{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(177, 122, 122);
+}
+#page3{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
